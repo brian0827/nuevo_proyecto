@@ -1,5 +1,10 @@
 COMANDOS GIT
 
-- crear un nuevo repositorio: git init
+PARA TRABAJAR DE FORMA LOCAL
+
+- crear un nuevo repositorio local: git init
 - indicar que se ha modificado un archivo: git add nombre.archivo
-- hacer commit a los cambios que realizo: 
+- hacer commit a los cambios que realizo: git commit (agregar dentro la descripcion de los cambios que se realizaron)
+- ver que cambios se realizaron: git diff
+- ver el historial de commits: git log
+- revertir cambios: git checkout -- nombre.archivo
