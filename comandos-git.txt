@@ -2,4 +2,4 @@ COMANDOS GIT
 
 - crear un nuevo repositorio: git init
 - indicar que se ha modificado un archivo: git add nombre.archivo
-- 
+- hacer commit a los cambios que realizo: 
