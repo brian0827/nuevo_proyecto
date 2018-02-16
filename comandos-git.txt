@@ -8,3 +8,4 @@ PARA TRABAJAR DE FORMA LOCAL
 - ver que cambios se realizaron: git diff
 - ver el historial de commits: git log
 - revertir cambios: git checkout -- nombre.archivo
+- revertir todos los cambios de un commit: git revert 'hash del commit'
