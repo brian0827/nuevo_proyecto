@@ -6,6 +6,7 @@ PARA TRABAJAR DE FORMA LOCAL
 - indicar que se ha modificado un archivo: git add nombre.archivo
 - hacer commit a los cambios que realizo: git commit (agregar dentro la descripcion de los cambios que se realizaron)
 - ver que cambios se realizaron: git diff
+- comparar cambios que se realizaron: git diff 'hash commit 1' 'hash commit 2'
 - ver el historial de commits: git log
 - revertir cambios: git checkout -- nombre.archivo
 - revertir todos los cambios de un commit: git revert 'hash del commit'
