@@ -9,7 +9,7 @@ PARA TRABAJAR DE FORMA LOCAL
 - comparar cambios que se realizaron: git diff 'hash commit 1' 'hash commit 2'
 - ver el historial de commits: git log
 - ver un resumen de los commits: git log --oneline
-- ver resumen de los commit identificando sus ramas: git log --online --decorate --all --graph
+- ver resumen de los commit identificando sus ramas: git log --online --decorate --graph --all
 - revertir cambios: git checkout -- nombre.archivo
 - revertir todos los cambios de un commit: git revert 'hash del commit'
 
@@ -20,6 +20,7 @@ RAMAS EN EL REPOSITORIO
 - crear y cambiar a nueva rama: git checkout -b nombre_nueva_rama
 - cambiar nombre de una rama: git branch -m nombre_antiguo nombre_nuevo
 -eliminar rama: git branch -d nombre_rama
+
 - limpiar consola de comandos: clear
 
 MERGE 
