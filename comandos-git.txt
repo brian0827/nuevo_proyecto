@@ -13,11 +13,15 @@ PARA TRABAJAR DE FORMA LOCAL
 - revertir cambios: git checkout -- nombre.archivo
 - revertir todos los cambios de un commit: git revert 'hash del commit'
 
-	RAMAS EN EL REPOSITORIO
+RAMAS EN EL REPOSITORIO
 - ver lista de ramas creadas: git branch
 - crear un nuevo branch: git branch nombre_nuevo
 - cambiar de rama: git checkout nombre_rama
 - crear y cambiar a nueva rama: git checkout -b nombre_nueva_rama
 - cambiar nombre de una rama: git branch -m nombre_antiguo nombre_nuevo
 -eliminar rama: git branch -d nombre_rama
-- limpiar consola de comandos: 
+- limpiar consola de comandos: clear
+
+MERGE 
+-para fusionar un commit con otro (unir dos codigos): git merge nombre_commit
+-
