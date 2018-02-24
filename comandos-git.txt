@@ -2,6 +2,8 @@ COMANDOS GIT
 
 PARA TRABAJAR DE FORMA LOCAL
 
+- condigurar por primer vez git: git config --global user.name "nombre"
+								 git config --global user.email correo@corr.com
 - crear un nuevo repositorio local: git init
 - indicar que se ha modificado un archivo: git add nombre.archivo
 - hacer commit a los cambios que realizo: git commit (agregar dentro la descripcion de los cambios que se realizaron)
